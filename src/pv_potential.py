@@ -15,7 +15,7 @@ import sys
 #from core import get_type, convert_temperature
 
 # Relative Import (Works Inside `src/` Package)
-from .core import get_type, convert_temperature
+from core import get_type, convert_temperature
 
 # Define PV potential calculation function
 def pv_pot(temp_file, rad_file, sfcwind_file):

@@ -8,7 +8,7 @@
 # Load libraries
 import xarray as xr
 import numpy as np
-from .core import convert_temperature  # Use relative import for package structure
+from core import convert_temperature  # Use relative import for package structure
 
 # Define constants from the equation
 C1 = 4.3
