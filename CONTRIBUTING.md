@@ -9,13 +9,13 @@ Thank you for your interest in contributing to `solar_indicator`! 🚀
 
 2. **Clone Your Fork**
    ```sh
-   git clone https://github.com/your-username/sol_ind.git
+   git clone https://github.com/your-username/solar_indicator.git
    cd solar_indicator
    
 3. **Create new Branch**
    git checkout -b feature-new-function
    #Make Changes & Test
-   #Modify or add functions inside sol_ind/
+   #Modify or add functions inside solar_indicator/
    #Run tests to ensure everything works.
    
 5. **commit and push**
