@@ -18,7 +18,7 @@ import sys
 from core import get_type, convert_temperature
 
 # Define PV potential calculation function
-def pv_pot(temp_file, rad_file, sfcwind_file):
+def pv_pot(temp_file, rad_file, wind_file):
     """
     Compute the PV potential (PV_pot) based on hourly solar radiation, temperature, and wind speed.
 
@@ -45,7 +45,7 @@ def pv_pot(temp_file, rad_file, sfcwind_file):
     # Load datasets
     ds_tas = xr.open_dataset(temp_file)
     ds_rsds = xr.open_dataset(rad_file)
-    ds_sfcWind = xr.open_dataset(sfcwind_file)
+    ds_sfcWind = xr.open_dataset(wind_file)
 
     # Extract variables and **force loading into memory**
     T_K = ds_tas["tas"].load()  # 2m temperature (Kelvin)
