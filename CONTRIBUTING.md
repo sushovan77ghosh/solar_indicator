@@ -13,21 +13,29 @@ Thank you for your interest in contributing to `solar_indicator`! 🚀
    cd solar_indicator
    
 3. **Create new Branch**
+   
    git checkout -b feature-new-function
+   
    #Make Changes & Test
+   
    #Modify or add functions inside solar_indicator/
+   
    #Run tests to ensure everything works.
    
 5. **commit and push**
-  git add .
-  git commit -m "Added a new solar indicator function"
-  git push origin feature-new-function
+   ```sh
+   git add .
+   git commit -m "Added a new solar indicator function"
+   git push origin feature-new-function
 
-6. **Create a Pull Request**
+7. **Create a Pull Request**
 
     #Go to the original repository on GitHub.
+   
     #Click New Pull Request and select your branch.
+   
     #Add a description and submit your PR
+   
 
 
 **Contribution Rules**
