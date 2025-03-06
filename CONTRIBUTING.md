@@ -33,10 +33,15 @@ Thank you for your interest in contributing to `solar_indicator`! 🚀
 **Contribution Rules**
 
 ✅ Follow PEP8 coding style.
+
 ✅ Use docstrings for all functions.
+
 ✅ Add tests if implementing new functions.
+
 ✅ Ensure compatibility with Xarray & NetCDF.
+
 ✅ Keep commits small and meaningful.
+
 
 
 **#We appreciate your contributions! 🌞**
